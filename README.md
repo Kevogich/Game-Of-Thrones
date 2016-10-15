@@ -2,7 +2,7 @@
 
 This repo contains a dataset of the battles in the War of the Five Kings from George R.R. Martin's A Song Of Ice And Fire series.
 
-This small side project came about because I outside [of] [regular](http://crisis.net) [projects](http://ushahidi.com) I have been looking for a small-n dataset to use as a data science teaching tool. While "non-fiction" datasets are, frankly, more interesting, they also come with the mess, complications, and grey-areas associated with the real world. On the other end of the spectrum, randomly generated datasets can be difficult to use as a teaching tool because their outputs (e.g. visualizations or analyses) are meaningless. So, instead of generating a dataset from random-values, the George R.R. Martin series provides ample source material to create a dataset that is both fictional and with (for anyone that has read the series) built-in context. Also, I had a few hours to kill in an airport.
+This small side project came about because outside [of] [Crisis.net](http://crisis.net)  [Ushahidi.com](http://ushahidi.com) I have been looking for a small-n dataset to use as a data science teaching tool. While "non-fiction" datasets are, frankly, more interesting, they also come with the mess, complications, and grey-areas associated with the real world. On the other end of the spectrum, randomly generated datasets can be difficult to use as a teaching tool because their outputs (e.g. visualizations or analyses) are meaningless. So, instead of generating a dataset from random-values, the George R.R. Martin series provides ample source material to create a dataset that is both fictional and with (for anyone that has read the series) built-in context. Also, I had a few hours to kill in an airport.
 
 [Here is an exploratory analysis of the dataset on nbviewer](http://nbviewer.ipython.org/github/chrisalbon/war_of_the_five_kings_dataset/blob/master/exploratory_analysis.ipynb)
 
@@ -45,10 +45,10 @@ This readme file acts as the codebook for the dataset.
 
 ### Are you a huge ASOIAF fan?
 
-HELL YEAH !  I just love data - all data.
+HELL YEAH !  I just love data too - all data.
 
 ### Working on...
 
-Danny's Westeros Invasion 
+Outcome of Danny's Westeros Invasion 
 
  [This data is mirrored and can be queried via API here](https://www.exversion.com/data/view/YVCREKZP14Y2XXC)
