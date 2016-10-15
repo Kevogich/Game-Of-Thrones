@@ -2,7 +2,7 @@
 
 This repo contains a dataset of the battles in the War of the Five Kings from George R.R. Martin's A Song Of Ice And Fire series.
 
-This small side project came about because I outside [of] [regular](http://crisis.net) [projects](http://ushahidi.com) I have been looking for a small-n dataset to use as a data science teaching tool. While "non-fiction" datasets are, frankly, more interesting, they also come with the mess, complications, and grey-areas associated with the real world. On the other end of the spectrum, randomly generated datasets can be difficult to use as a teaching tool because their outputs (e.g. visualizations or analyses) are meaningless. So, instead of generating a dataset from random-values, the George R.R. Martin series provides ample source material to create a dataset that is both fictional and with (for anyone that has read the series) built-in context. Also, I had a few hours to kill in an airport.
+This small side project came about because I outside [of](http://chrisralbon.com) [my](https://github.com/chrisalbon) [regular](http://crisis.net) [projects](http://ushahidi.com) I have been looking for a small-n dataset to use as a data science teaching tool. While "non-fiction" datasets are, frankly, more interesting, they also come with the mess, complications, and grey-areas associated with the real world. On the other end of the spectrum, randomly generated datasets can be difficult to use as a teaching tool because their outputs (e.g. visualizations or analyses) are meaningless. So, instead of generating a dataset from random-values, the George R.R. Martin series provides ample source material to create a dataset that is both fictional and with (for anyone that has read the series) built-in context. Also, I had a few hours to kill in an airport.
 
 [Here is an exploratory analysis of the dataset on nbviewer](http://nbviewer.ipython.org/github/chrisalbon/war_of_the_five_kings_dataset/blob/master/exploratory_analysis.ipynb)
 
@@ -18,10 +18,17 @@ This readme file acts as the codebook for the dataset.
 - **name:** String variable. The name of the battle.
 - **year:** Numeric variable. The year of the battle.
 - **battle_number:** Numeric variable. A unique ID number for the battle.
-- **attacker_king:** Categorical. The attacking king.For example, "Joffrey/Tommen Baratheon" is coded as such because one king follows the other in the Iron Throne.
+- **attacker_king:** Categorical. The attacker's king. A slash indicators that the king charges over the course of the war. For example, "Joffrey/Tommen Baratheon" is coded as such because one king follows the other in the Iron Throne.
 - **defender_king:** Categorical variable. The defender's king.
 - **attacker_1:** String variable. Major house attacking.
-- **attacker_outcome:** Categorical variable. The outcome from the perspective war.
+- **attacker_2:** String variable. Major house attacking.
+- **attacker_3:** String variable. Major house attacking.
+- **attacker_4:** String variable. Major house attacking.
+- **defender_1:** String variable. Major house defending.
+- **defender_2:** String variable. Major house defending.
+- **defender_3:** String variable. Major house defending.
+- **defender_4:** String variable. Major house defending.
+- **attacker_outcome:** Categorical variable. The outcome from the perspective of the attacker. Categories: win, loss, draw.
 - **battle_type:** Categorical variable. A classification of the battle's primary type. Categories:
     - pitched\_battle: Armies meet in a location and fight. This is also the baseline category.
     - ambush: A battle where stealth or subterfuge was the primary means of attack.
@@ -45,10 +52,7 @@ This readme file acts as the codebook for the dataset.
 
 ### Are you a huge ASOIAF fan?
 
-HELL YEAH !  I just love data - all data.
+Not really. I just love data - all data.
 
-### Working on...
-
-Danny's Westeros Invasion 
 
  [This data is mirrored and can be queried via API here](https://www.exversion.com/data/view/YVCREKZP14Y2XXC)
