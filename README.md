@@ -4,7 +4,6 @@ This repo contains a dataset of the battles in the War of the Five Kings from Ge
 
 This small side project came about because outside [of] [Crisis.net](http://crisis.net) and [Ushahidi.com](http://ushahidi.com) I have been looking for a small-n dataset to use as a data science teaching tool. While "non-fiction" datasets are, frankly, more interesting, they also come with the mess, complications, and grey-areas associated with the real world. On the other end of the spectrum, randomly generated datasets can be difficult to use as a teaching tool because their outputs (e.g. visualizations or analyses) are meaningless. So, instead of generating a dataset from random-values, the George R.R. Martin series provides ample source material to create a dataset that is both fictional and with (for anyone that has read the series) built-in context. Also, I had a few hours to kill in an airport.
 
-[Here is an exploratory analysis of the dataset on nbviewer](http://nbviewer.ipython.org/github/chrisalbon/war_of_the_five_kings_dataset/blob/master/exploratory_analysis.ipynb)
 
 ## Codebook
 
